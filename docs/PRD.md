@@ -139,3 +139,9 @@
 - Đăng nhập qua Google/OAuth.
 - Chia sẻ ghi chú (read-only hoặc collaborative).
 - Dark mode, rich text editor.
+
+  ## Tính năng Tags (bổ sung)
+
+- Người dùng có thể gắn nhiều tag cho mỗi ghi chú.
+- Tag được lưu trong bảng `tags` (id, name, user_id) và bảng liên kết `note_tags` (note_id, tag_id).
+- Giao diện: ô nhập tag khi tạo/sửa ghi chú, hiển thị tag dưới dạng chip, bộ lọc theo tag ở trang danh sách.
